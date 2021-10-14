@@ -4,22 +4,22 @@
 class ElectricCli < Formula
   include Language::Python::Virtualenv
 
-  desc "Electric Data command line interface utility."
-  homepage "https://electricdata.net"
+  desc "Electric DB command line interface utility."
+  homepage "https://electricdb.net"
   license "MIT"
   version "0.0.3"
 
-  url "https://pypi.io/packages/source/e/electric-data-cli/electric-data-cli-0.0.3.tar.gz"
-  sha256 "4e81feaeb4673c21d5a189272e2b96232ac438a25bec83c459a4fd2e2993a5d9"
-  head "https://github.com/electric-data/electric-cli.git"
+  url "https://pypi.io/packages/source/e/electric-db-cli/electric-db-cli-0.0.3.tar.gz"
+  sha256 "bbcd6e56ce2d810173db31e8629a8952a8d0afbb9437cea7da44cfd63810899f"
+  head "https://github.com/electric-db/electric-cli.git"
 
   resource "certifi" do
-    url "https://pypi.io/packages/source/c/certifi/certifi-2021.5.30.tar.gz"
-    sha256 "2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee"
+    url "https://pypi.io/packages/source/c/certifi/certifi-2021.10.8.tar.gz"
+    sha256 "78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"
   end
   resource "charset-normalizer" do
-    url "https://pypi.io/packages/source/c/charset-normalizer/charset-normalizer-2.0.4.tar.gz"
-    sha256 "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"
+    url "https://pypi.io/packages/source/c/charset-normalizer/charset-normalizer-2.0.7.tar.gz"
+    sha256 "e019de665e2bcf9c2b64e2e5aa025fa991da8720daa3c1138cadd2fd1856aed0"
   end
   resource "click" do
     url "https://pypi.io/packages/source/c/click/click-7.1.2.tar.gz"
@@ -30,8 +30,8 @@ class ElectricCli < Formula
     sha256 "820ffe09c390469dc621b6a0aa46d3a624b6dadf09b439e175696b6f6b77ef2f"
   end
   resource "idna" do
-    url "https://pypi.io/packages/source/i/idna/idna-3.2.tar.gz"
-    sha256 "467fbad99067910785144ce333826c71fb0e63a425657295239737f7ecd125f3"
+    url "https://pypi.io/packages/source/i/idna/idna-3.3.tar.gz"
+    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
   end
   resource "requests" do
     url "https://pypi.io/packages/source/r/requests/requests-2.26.0.tar.gz"
@@ -46,8 +46,8 @@ class ElectricCli < Formula
     sha256 "bd5f675954125f95b5fbcc8d8188d30d3ccf1a51e1bc719e7160e8f17879ba95"
   end
   resource "urllib3" do
-    url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.6.tar.gz"
-    sha256 "f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"
+    url "https://pypi.io/packages/source/u/urllib3/urllib3-1.26.7.tar.gz"
+    sha256 "4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"
   end
 
   depends_on "python@3"
