@@ -7,11 +7,11 @@ class ElectricCli < Formula
   desc "ElectricDB command line interface utility."
   homepage "https://electricdb.net"
   license "MIT"
-  version "0.0.3"
+  version "0.0.4"
 
-  url "https://pypi.io/packages/source/e/electric-db-cli/electric-db-cli-0.0.3.tar.gz"
-  sha256 "bbcd6e56ce2d810173db31e8629a8952a8d0afbb9437cea7da44cfd63810899f"
-  head "https://github.com/electric-db/electric-cli.git"
+  url "https://pypi.io/packages/source/e/electricdb-cli/electricdb-cli-0.0.4.tar.gz"
+  sha256 "0a56e0309024b024ce042de0e88d2f433a846984042cfa4d179b624581371661"
+  head "https://github.com/electricdb/electric-cli.git"
 
   resource "certifi" do
     url "https://pypi.io/packages/source/c/certifi/certifi-2021.10.8.tar.gz"
